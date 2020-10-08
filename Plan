@@ -1,0 +1,18 @@
+Create a HTML and CSS framework to use
+    1-Make an HTML basic skeleton
+    2-Connect basic bootstrap functions and forms
+    3-format with CSS   
+Figure out how to pull information from the Api
+    4-connect to api
+    5-create function to pull information into your local machine
+    6- create multiple functions to pull different information
+Figure out how to store infromation from the Api in local storage
+    7-create local storage function
+    8-connect local storage to infromation on cities from api 
+    9-save api information to local storage
+Figure out how to display multiple days of the forcast
+    10- create multiple slots for multiple days 
+    11- figure out how to pull information for 5 days
+Finishing touches on functionality and aesthetics
+    12- finishing framework and bootstrap and make dynamic
+    13- semantics

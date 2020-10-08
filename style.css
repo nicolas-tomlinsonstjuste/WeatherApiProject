@@ -1,0 +1,11 @@
+.box {
+    background-color: blue;
+    color: white;
+    width: 20%;
+    border-radius: 7.5px;
+    margin-right: 3%;
+    padding: 10px;
+}
+.boxes {
+    display: flex;
+}

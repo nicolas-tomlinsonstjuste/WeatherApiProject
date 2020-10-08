@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Favorite Movies</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+  <div class="container">
+    <h1>Weather Dashboard</h1>
+    <div class= "row">
+        <div class = "col-3">
+            <form id="movie-form">
+                <label for="movie-input">Search for a city</label>
+                <input type="text" id="movie-input"><br>
+          
+                <input id="find-movie" type="submit" value="Search">
+              </form>
+          
+              <div class="list-group">
+                  <a href="#" class="list-group-item list-group-item-action active">
+                    Cras justo odio
+                  </a>
+                  <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+                  <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+                  <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+                  <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">Vestibulum at eros</a>
+                </div>
+        </div>
+        <div class = "col-9">
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                  <h2>City Name</h2>
+                  <h3>Temperature</h3>
+                  <h3>Humidity</h3>
+                  <h3>Wind Speed</h3>
+                  <h3>UV Index</h3>
+                  <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+                </div>
+              </div>
+        </div>
+    </div>
+    <div class="row">
+       <div class= "col-9 offset-3">
+           <div class="boxes">
+               <div class= "box">
+                   <p>October, 8, 2020</p>
+                   <img src="http://openweathermap.org/img/wn/10d@2x.png"/>
+                   <p>Temp: 84*F</p>
+                   <p>Humidity: 60 %</p>
+               </div>
+               <div class= "box"></div>
+               <div class= "box"></div>
+               <div class= "box"></div>
+               <div class= "box"></div>
+           </div>
+        
+
+       </div>
+    </div>
+
+    <div id="movie-view"></div>
+    <div id="movie-view2"></div>
+    <div id="your-mom-ishot-bro"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
